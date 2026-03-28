@@ -1,3 +1,38 @@
+## Jack Criminger Website Portfolio   ##
+## jackcriminger.dev (working domain) ##
+
+
+# How to run React/Frontend
+
+    1. Make sure you are in the base directory for the react app (i.e., "frontend")
+    2. Use npm to run the development
+
+    ```bash
+        cd frontend
+        npm run dev
+
+    ```
+
+---
+
+# How to run Backend
+
+    1. Make sure you are in the base directory for the backend ("backend")
+    2. Set up the virtual environment (venv)
+    3. Use 'pip install requirements.txt' to install required dependencies
+
+    ```bash
+        cd backend
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+
+    ```
+
+---
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
