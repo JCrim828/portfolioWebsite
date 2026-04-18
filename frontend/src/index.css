@@ -1,10 +1,10 @@
 :root {
   --text: #000000;
-  --text-h: #08060d;
+  --nav-text: #676767;
   --bg: #fff;
-  --secondary: #d6b8b8;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
+  --accent: #558700;
+  --secondary: rgb(205, 215, 157);
+  --footer: #efefef;
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -69,12 +69,6 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
-}
 
 h1 {
   font-size: 56px;
@@ -111,4 +105,8 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+html {
+  scroll-behavior: smooth;
 }

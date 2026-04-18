@@ -1,0 +1,13 @@
+
+.footer {
+    background-color: var(--footer);
+    position: sticky;
+    bottom: 0;
+    font-family: var(--nav-font);
+    font-weight: 800;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}

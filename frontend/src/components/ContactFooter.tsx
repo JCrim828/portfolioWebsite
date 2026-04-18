@@ -2,7 +2,7 @@ import './ContactFooter.css'
 
 const ContactFooter = () => {
     return (
-        <div>
+        <div className='footer'>
             *Contact Information Icons Here*
         </div>
     )

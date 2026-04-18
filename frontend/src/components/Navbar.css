@@ -1,18 +1,19 @@
 
 nav {
-    max-width: 500px;
+    width: clamp(100px, 75vw, 500px);
     position: sticky;
     top: 20px;
     margin: 0 auto;
     margin-top: 20px;
-    border: 1px solid rgb(211, 205, 205);
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     font-family: var(--nav-font);
     font-weight: 800;
+    color: var(--nav-text);
     background-color: rgba(248, 248, 248, 0.9);
     padding-top: 5px;
     padding-bottom: 5px;
+    z-index: 10;
 }
 
 ul {
@@ -25,4 +26,13 @@ ul {
 
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: var(--accent);
+    }
 }
