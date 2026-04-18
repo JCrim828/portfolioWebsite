@@ -11,3 +11,21 @@
     justify-content: center;
     z-index: 10;
 }
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    transition: color 0.2s;
+
+    &:hover {
+        color: var(--accent);
+    }
+}
+
+
