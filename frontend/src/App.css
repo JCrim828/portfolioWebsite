@@ -80,9 +80,76 @@ main div {
     background-color: var(--secondary);
 }
 
+
+
 .skills-section {
-    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 200px;
     background-color: var(--bg);
+    gap: 0.5rem;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.skills-section h1{
+    grid-column: 1 / -1;
+    margin-bottom: 0rem;
+}
+
+.skill-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8%;
+    gap: 0;
+    max-width: 500px;
+}
+
+.skill-category h3 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0.3rem;
+}
+
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skill-item {
+    width: 4.5rem;
+    height: 5.5rem;
+    flex: 0 0 6.5rem;  /* Fixed width, don't shrink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.skill-item:hover{
+    transform: scale(1.1);
+}
+
+.skill-icon {
+    font-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-icon img {
+    width: 100%;
+    height: 100%;
 }
 
 .projects-section {

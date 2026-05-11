@@ -1,11 +1,12 @@
 import './ContactFooter.css'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa'
 
 const ContactFooter = () => {
     const links = [
         { icon: FaGithub, url: 'https://github.com/JCrim828', label: 'GitHub' },
         { icon: FaLinkedin, url: 'https://www.linkedin.com/in/jack-criminger/', label: 'LinkedIn'},
         { icon: FaEnvelope, url: 'mailto:jack.crim828@gmail.com', label: 'Email'},
+        { icon: FaFilePdf, url: "/resume.pdf", label: 'Resume'},
     ]
 
     return (
