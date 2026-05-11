@@ -89,7 +89,8 @@ main div {
     background-color: var(--bg);
     gap: 0.5rem;
     padding: 0.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
+    justify-items: center;
 }
 
 .skills-section h1{
