@@ -84,9 +84,14 @@ function App() {
           </div>
         </div>
         <div id="about" className='about-section'>
-          <h1>
-            /* About */
-          </h1>
+          <h1>/* About */</h1>
+          <div className='about-container'>
+            <img src={headshot} alt="Dev Icon" className='dev-icon'/>
+            <div className='about-info'>
+              <h2>A Software Developer</h2>
+              <text>Blah blah blah</text>
+            </div>
+          </div>
         </div>
         <div id="skills" className='skills-section'>
           <h1>/* Skills */</h1>
